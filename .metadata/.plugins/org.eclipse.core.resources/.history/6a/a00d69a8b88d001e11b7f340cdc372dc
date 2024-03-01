@@ -1,0 +1,51 @@
+package com.app;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	//Create SessionFactory 
+    	SessionFactory factory = new Configuration().
+    			configure("hibernate.cfg.xml").
+    			addAnnotatedClass(Student.class).
+    			buildSessionFactory();
+    	//create Session
+    	
+    	Session session = factory.openSession();
+    	//begin the transaction
+    	
+    	session.beginTransaction();
+    	
+    	//create Student Object
+    	/*Student s = new Student();
+    	s.setFirstName("Pratik");
+    	s.setLastName("Patel");
+    	s.setAge(25);
+    	session.save(s);*/
+    	
+    	//Get Student - id
+    	int id = 5;
+    	Student s = session.get(Student.class, id);
+    	
+    	
+    	
+    	System.out.println("Object Persisted!!!");
+    	session.getTransaction().commit();
+    	session.close();
+    	factory.close();
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    }
+}

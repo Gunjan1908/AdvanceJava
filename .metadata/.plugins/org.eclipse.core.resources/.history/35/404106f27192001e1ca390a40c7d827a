@@ -1,0 +1,27 @@
+package com.app.rest;
+
+import java.time.LocalDateTime;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class DemoRestController {
+	@Value("${trainer-name}")
+	private String trainerName;
+	private String trainerSubject;
+	
+	@GetMapping("/hello")
+	public String sayHello()
+	{
+		return "Time on Server ="+LocalDateTime.now();
+	}
+	
+	@GetMapping("/trainerInfo")
+	public String trainerInfo()
+	{
+		return "Trainer = ["+trainerName+" "+trainerSubject+"]";
+	}
+
+}

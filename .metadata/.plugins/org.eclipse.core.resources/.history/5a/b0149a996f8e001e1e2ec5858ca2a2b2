@@ -1,0 +1,13 @@
+package com.app.dao;
+
+import com.app.bean.Employee;
+
+public class EmployeeDAO {
+	
+	
+	public static int registerEmp(Employee e)
+	{
+		
+	}
+
+}

@@ -1,0 +1,40 @@
+package com.app.model;
+
+import java.util.Map;
+
+public class Student {
+	
+	private String firstName;
+	private String lastName;
+	private String country;
+	private Map<String,String> countryOptions;
+	private String language;
+	private String[] operatingSystems;
+	
+	public Student() {}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [firstName=" + firstName + ", lastName=" + lastName + "]";
+	}
+	
+	
+	
+
+}

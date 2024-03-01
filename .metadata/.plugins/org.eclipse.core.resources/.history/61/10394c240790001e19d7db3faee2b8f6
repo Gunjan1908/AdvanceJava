@@ -1,0 +1,13 @@
+package com.app;
+
+public class Student {
+	
+	private String name;
+	private String interestedCourse;
+	private String hobby;
+	
+	public Student() {}
+	
+	
+
+}

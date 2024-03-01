@@ -1,0 +1,11 @@
+package com.app.dao;
+
+public class EmployeeDAO {
+	
+	
+	public static int registerEmp(Employee e)
+	{
+		
+	}
+
+}

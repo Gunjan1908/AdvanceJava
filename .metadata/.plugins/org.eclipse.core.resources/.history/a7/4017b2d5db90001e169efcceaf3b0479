@@ -1,0 +1,69 @@
+AOP(Aspect Oriented Programming):
+
+	"Cross Cutting Concerns"
+	
+	Concern means Logic/Functionality
+	
+	New Requirement:
+	Logging - DAO method
+	
+	Aspect AOP terminology:
+	
+	Aspect: module of code for cross cutting concerns
+		
+		Aspect can be reused at multiple locations
+		
+		Advice: What action is taken and when it should be applied
+		
+		Jointpoint: when to apply code during program execution
+		
+	PointCut: A predicate expression for where advice should be applied
+		
+		
+	Advice Type:
+	1. Before advice:  run code before the method
+	2. After finally advice: run code after the method 
+	3. After returning advice
+	4. After throwing advice: run after the method(exception is thrown)
+	5. Around Advice: run before and after method
+	
+	
+	Create target Object- AccountDAO
+	Create Spring java Config class(No XML)
+	Create main app
+	Create an Aspect with @Before advice
+		
+	
+	PointCut Expression Language:
+	
+	execution(modifiers_pattern? return_type_pattern declaring_type_pattern? 
+	method_name_pattern(param-pattern) throws-pattern?
+	)
+	
+	? - optional
+	modifiers_pattern? - public or *(matches on everything)
+	declaring_type_pattern - class_name
+	method_name_pattern - method name to match
+	param-pattern - param to match
+	throws-pattern? - exception type to match
+	
+	AOP -Match on Parameters:
+	For Param Pattern-
+	() - matches a method with no arg
+	(*) - matches a method with one arg of any type
+	(..) - matches a method with() or more args of any type
+	
+	
+	
+		Problem Statement:
+		How can we reuse a pointcut expression?
+		Want to apply to multiple locations?
+		
+		Soln:
+		Create a pointcut declaration once
+		Apply it to multiple advices
+		
+		
+	
+		
+		

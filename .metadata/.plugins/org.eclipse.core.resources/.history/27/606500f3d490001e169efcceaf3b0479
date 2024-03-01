@@ -1,0 +1,16 @@
+package com.app.aopdemo.aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class MyLoggingAspect {
+	
+	
+	public void addBeforeAdvice()
+	{
+		System.out.println("@Before Advice Invoked before addAcount");
+	}
+
+}

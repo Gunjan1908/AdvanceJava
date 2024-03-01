@@ -1,0 +1,31 @@
+package session_11;
+
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Types;
+
+public class Demo3 {
+	
+public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		
+		Class.forName("com.mysql.jdbc.Driver");
+		System.out.println("Driver Fond");
+		
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","");
+		System.out.println("Connection Established");
+		
+		CallableStatement stmt = con.prepareCall("{? = call new_function(?,?)}");
+		
+		stmt.setInt(2, 10);
+		stmt.setInt(3, 20);
+		stmt.registerOutParameter(1, Types.INTEGER);
+		stmt.execute();
+	
+		System.out.println("Addition = "+stmt.getInt(1));
+
+		con.close();	
+
+}
+}

@@ -1,0 +1,29 @@
+package com.app.controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/student")
+public class StudentController {
+
+	@RequestMapping("/hello")
+	public String showPage()
+	{
+		return "student-form";
+	}
+	
+	@RequestMapping("/processForm")
+	public String processStudentForm(HttpServletRequest request,Model model)
+	{
+		String studentName = request.getParameter("txtName");
+		studentName = studentName.toUpperCase();
+		String result = "Hey "+studentName+" Welcome!!!";
+		model.addAttribute("message", result);
+		return "student-confirmation";
+	}
+	
+}

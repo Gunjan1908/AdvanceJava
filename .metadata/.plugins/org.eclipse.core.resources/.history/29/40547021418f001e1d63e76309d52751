@@ -1,0 +1,8 @@
+package com.app;
+
+public interface Sim {
+
+	public abstract void calling();
+	public void data();
+
+}

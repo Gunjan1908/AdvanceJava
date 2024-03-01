@@ -1,0 +1,11 @@
+package com.app;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Student123")
+public class Student {
+	
+
+}

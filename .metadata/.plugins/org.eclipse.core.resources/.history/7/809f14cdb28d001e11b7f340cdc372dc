@@ -1,0 +1,23 @@
+package com.app;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Student123")
+public class Student {
+	
+	
+	private int id;
+	private String firstName;
+	private String lastName;
+	private int age;
+	
+	public Student() {}
+	
+	
+	
+	
+	
+
+}

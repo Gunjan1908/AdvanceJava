@@ -1,0 +1,13 @@
+package com.app.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+	
+	public String showMyPage()
+	{
+		return "main_menu";
+	}
+
+}

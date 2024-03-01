@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<script type="text/javascript">
+	function callServlet() {	
+		var servletName = document.empForm.register.value;
+		if(servletName == "")
+			{
+			alert("No value.....");
+			return false;
+			}
+		else
+			{
+			alert("Servlet Name = "+servletName);
+			document.location.href = servletName+".html";
+			return false;
+			}
+	}
+
+</script>
+</head>
+<body>
+<h1>Employee Login Form</h1>
+<form action="LoginServlet" method="post" name="empForm">
+<table>
+<tr>
+<td>Enter Username:</td>
+<td><input type="text" name="txtUsername"></td>
+</tr>
+<tr>
+<td>Enter Password:</td>
+<td><input type="password" name="txtPassword"></td>
+</tr>
+<tr>
+<td><input type="button" value="register" onclick="return callServlet();" 
+name="register"></td>
+<td><input type="submit" value="Login"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

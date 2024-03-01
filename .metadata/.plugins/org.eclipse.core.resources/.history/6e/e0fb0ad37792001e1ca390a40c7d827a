@@ -1,0 +1,4 @@
+management.endpoints.web.exposure.include=*
+info.app.name=MySpringBootApplication
+info.app.description=Hello World
+info.app.version=2.7.12

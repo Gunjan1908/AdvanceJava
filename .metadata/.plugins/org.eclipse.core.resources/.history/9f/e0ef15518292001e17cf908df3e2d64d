@@ -1,0 +1,5 @@
+management.endpoints.web.exposure.include=*
+info.app.name=MySpringBootApplication
+info.app.description=Actuator Demo
+info.app.version=2.7.12
+management.info.env.enabled=true

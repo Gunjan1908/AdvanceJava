@@ -1,0 +1,13 @@
+package com.app.bean;
+
+import java.io.Serializable;
+
+public class Employee implements Serializable{
+	
+	private String name,password,email;
+	
+	public Employee() {}
+	
+	
+
+}

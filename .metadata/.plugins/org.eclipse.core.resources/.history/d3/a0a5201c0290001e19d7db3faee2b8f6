@@ -1,0 +1,14 @@
+package com.app;
+
+public class Heart {
+	
+	private String nameofAnimal;
+	private int noOfHearts;
+	
+	public void pump()
+	{
+		System.out.println("You are Alive!!!");
+		System.out.println("Your heart is Pumping!!!");
+	}
+
+}

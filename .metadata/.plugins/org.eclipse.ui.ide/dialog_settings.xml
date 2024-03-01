@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\javaEEBatch19to6\spring-mvc-CRUD-CRM-cust-update"/>
+			<item value="C:\javaEEBatch19to6\RestControllerDemo1"/>
+			<item value="C:\javaEEBatch19to6\RestControllerDemo"/>
+			<item value="C:\javaEEBatch19to6\spring-mvc-CRUD-CRM-cust-add"/>
+			<item value="C:\javaEEBatch19to6\spring-demo-aop-z-around"/>
+			<item value="C:\javaEEBatch19to6\spring-aop-demo2"/>
+			<item value="C:\javaEEBatch19to6\spring-aop-demo1"/>
+			<item value="C:\javaEEBatch19to6\spring-aop-demo"/>
+			<item value="C:\javaEEBatch19to6\tagdemo"/>
+			<item value="C:\javaEEBatch19to6\IOCDemo"/>
+			<item value="C:\javaEEBatch19to6\hibHCQLDemo"/>
+			<item value="C:\javaEEBatch19to6\hibernateOneToOne"/>
+			<item value="C:\javaEEBatch19to6\hibernate-named-query"/>
+			<item value="C:\javaEEBatch9to6\JspCrudDemo"/>
+			<item value="C:\javaEEBatch9to6\TagLibDemo"/>
+			<item value="C:\javaEEBatch9to6\SessionDemo"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="337"/>
+		<item key="DIALOG_Y_ORIGIN" value="81"/>
+	</section>
+</section>

@@ -1,0 +1,26 @@
+package com.app;
+
+public class Human {
+
+	Heart heart;
+ 
+	public Human() {
+		System.out.println("Human Constructor");
+	}
+
+	public Human(Heart heart) {
+		super();
+		System.out.println("In Constructor---->");
+		this.heart = heart;
+	}
+
+	public void setHeart(Heart heart) {
+		this.heart = heart;
+	}
+	
+	public void pumping()
+	{
+		heart.pump();
+	}
+
+}

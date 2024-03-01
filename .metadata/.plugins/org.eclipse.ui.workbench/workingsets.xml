@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700452568502_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=session_01/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700452568517_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701665858795_3" label="SpringBoot1" name="SpringBoot1">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SpringBoot1" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701672396775_4" label="SpringBoot2" name="SpringBoot2">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SpringBoot2" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701674819805_5" label="SpringBoot3" name="SpringBoot3">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SpringBoot3" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701679549708_6" label="SpringBoot4" name="SpringBoot4">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SpringBoot4" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701749510068_7" label="cruddemo" name="cruddemo">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/cruddemo" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701757638183_8" label="thymeleafdemo" name="thymeleafdemo">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/thymeleafdemo" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1700452572970_2" label="Window Working Set" name="Aggregate for window 1700452572970"/>
+</workingSetManager>

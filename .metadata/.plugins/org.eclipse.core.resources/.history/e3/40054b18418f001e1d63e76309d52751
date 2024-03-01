@@ -1,0 +1,10 @@
+package com.app;
+
+public interface Sim {
+	
+	int no = 100;
+	
+	public void calling();
+	public void data();
+
+}

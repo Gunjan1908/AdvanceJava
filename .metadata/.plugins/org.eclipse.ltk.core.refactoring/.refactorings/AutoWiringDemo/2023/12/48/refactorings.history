@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.app&apos; to &apos;AutoWDemo/src&apos;&#x0D;&#x0A;- Original project: &apos;AutoWiringDemo&apos;&#x0D;&#x0A;- Destination element: &apos;AutoWDemo/src&apos;&#x0D;&#x0A;- Original element: &apos;AutoWiringDemo/src/com.app&apos;" description="Copy package" destination="=AutoWDemo/src=/optional=/true=/=/maven.pomderived=/true=/" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1701403996778" version="1.0"/>
+</session>
